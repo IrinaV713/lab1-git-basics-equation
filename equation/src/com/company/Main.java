@@ -12,8 +12,8 @@ public class Main {
             Scanner main_scan = new Scanner(System.in);
             String mode = main_scan.nextLine();
             if(Objects.equals(mode, "0")){
-                //Interactive obj1 = new Interactive();
-                //obj1.interactive();
+                Interactive obj1 = new Interactive();
+                obj1.interactive();
                 break;
             }
             else if(Objects.equals(mode, "1")){
