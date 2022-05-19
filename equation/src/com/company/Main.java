@@ -17,8 +17,8 @@ public class Main {
                 break;
             }
             else if(Objects.equals(mode, "1")){
-                //NonInteractive obj2 = new NonInteractive();
-                //obj2.nonInteractive();
+                NonInteractive obj2 = new NonInteractive();
+                obj2.nonInteractive();
                 break;
             }
             else System.out.println("Error. Expected 0 or 1");
